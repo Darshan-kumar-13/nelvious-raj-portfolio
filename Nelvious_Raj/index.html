@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nelvious Raj S | Instrumentation Supervisor</title>
+
+    <meta name="description"
+          content="Nelvious Raj S - Instrumentation Supervisor with 8+ years of experience in instrumentation maintenance, calibration, troubleshooting, DCS, process analyzers and commissioning.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fa;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        /* =========================
+           NAVBAR
+        ========================== */
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(15, 23, 42, 0.96);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 16px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .logo span {
+            color: #38bdf8;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #38bdf8;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+            background: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 120px 25px 70px;
+        }
+
+        .hero-container {
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(42px, 6vw, 72px);
+            line-height: 1.05;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 span {
+            color: #38bdf8;
+        }
+
+        .designation {
+            font-size: 24px;
+            color: #cbd5e1;
+            margin-bottom: 25px;
+        }
+
+        .hero-description {
+            max-width: 700px;
+            color: #cbd5e1;
+            font-size: 17px;
+            margin-bottom: 35px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 13px 23px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(56,189,248,0.25);
+        }
+
+        .btn-outline {
+            border: 1px solid #64748b;
+            color: white;
+        }
+
+        .btn-outline:hover {
+            border-color: #38bdf8;
+            color: #38bdf8;
+        }
+
+        /* HERO CARD */
+
+        .hero-card {
+            background: rgba(255,255,255,0.07);
+            border: 1px solid rgba(255,255,255,0.12);
+            padding: 35px;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+        }
+
+        .hero-card h3 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+
+        .stat {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stat:last-child {
+            border-bottom: none;
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 25px;
+            color: white;
+        }
+
+        .stat span {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        /* =========================
+           GENERAL
+        ========================== */
+
+        section {
+            padding: 90px 25px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 34px;
+            color: #0f172a;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #64748b;
+        }
+
+        /* =========================
+           SUMMARY
+        ========================== */
+
+        .summary-box {
+            background: white;
+            padding: 35px;
+            border-radius: 16px;
+            border-left: 5px solid #38bdf8;
+            box-shadow: 0 10px 35px rgba(15,23,42,0.06);
+            font-size: 17px;
+            color: #475569;
+        }
+
+        /* =========================
+           EXPERIENCE
+        ========================== */
+
+        .timeline {
+            position: relative;
+            margin-left: 15px;
+            border-left: 2px solid #cbd5e1;
+        }
+
+        .timeline-item {
+            position: relative;
+            padding: 0 0 45px 35px;
+        }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background: #38bdf8;
+            border: 4px solid #e0f2fe;
+            left: -8px;
+            top: 5px;
+        }
+
+        .timeline-item h3 {
+            font-size: 21px;
+            color: #0f172a;
+        }
+
+        .company {
+            color: #0284c7;
+            font-weight: 600;
+            margin: 5px 0;
+        }
+
+        .duration {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+
+        .timeline-item ul {
+            padding-left: 20px;
+            color: #475569;
+        }
+
+        .timeline-item li {
+            margin-bottom: 7px;
+        }
+
+        /* =========================
+           SKILLS
+        ========================== */
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #e2e8f0;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(15,23,42,0.08);
+        }
+
+        .skill-card h3 {
+            color: #0284c7;
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        .skill-card p {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        /* =========================
+           PROJECT
+        ========================== */
+
+        .project-card {
+            background: #0f172a;
+            color: white;
+            padding: 40px;
+            border-radius: 18px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::after {
+            content: "6N";
+            position: absolute;
+            right: 35px;
+            top: 20px;
+            font-size: 120px;
+            font-weight: 900;
+            color: rgba(255,255,255,0.03);
+        }
+
+        .project-card h3 {
+            font-size: 27px;
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+
+        .project-card .company {
+            margin-bottom: 25px;
+        }
+
+        .project-card ul {
+            padding-left: 20px;
+            color: #cbd5e1;
+        }
+
+        .project-card li {
+            margin-bottom: 10px;
+        }
+
+        .project-tags {
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: rgba(56,189,248,0.1);
+            border: 1px solid rgba(56,189,248,0.3);
+            color: #7dd3fc;
+            padding: 7px 12px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+
+        /* =========================
+           AWARDS
+        ========================== */
+
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .award {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            border-top: 4px solid #38bdf8;
+            box-shadow: 0 8px 30px rgba(15,23,42,0.06);
+        }
+
+        .award h3 {
+            margin-bottom: 12px;
+            color: #0f172a;
+        }
+
+        .award p {
+            color: #64748b;
+        }
+
+        /* =========================
+           EDUCATION
+        ========================== */
+
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .education-card {
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .education-card h3 {
+            color: #0284c7;
+            font-size: 18px;
+        }
+
+        .education-card p {
+            color: #64748b;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        /* =========================
+           SOFT SKILLS
+        ========================== */
+
+        .soft-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .soft-skill {
+            background: white;
+            padding: 12px 18px;
+            border-radius: 50px;
+            border: 1px solid #dbeafe;
+            color: #334155;
+            font-size: 14px;
+        }
+
+        /* =========================
+           CONTACT
+        ========================== */
+
+        .contact-section {
+            background: #0f172a;
+            color: white;
+        }
+
+        .contact-section .section-title h2 {
+            color: white;
+        }
+
+        .contact-section .section-title p {
+            color: #94a3b8;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .contact-card {
+            background: rgba(255,255,255,0.06);
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .contact-card h3 {
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+
+        .contact-card a {
+            color: #cbd5e1;
+            text-decoration: none;
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            background: #020617;
+            color: #64748b;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+        }
+
+        /* =========================
+           MOBILE
+        ========================== */
+
+        @media (max-width: 850px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero-container {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid,
+            .awards-grid,
+            .education-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 70px 20px;
+            }
+
+            .hero {
+                padding-top: 110px;
+            }
+
+            .hero-card {
+                padding: 25px;
+            }
+        }
+
+        /* =========================================================
+           BLACK LIVE INSTRUMENTATION BACKGROUND
+           Subtle P&ID / DCS-inspired animation
+        ========================================================= */
+
+        .instrument-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+            background:
+                radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 0.35), transparent 65%),
+                #000;
+        }
+
+        /* Fine engineering grid */
+        .instrument-bg::before {
+            content: "";
+            position: absolute;
+            inset: -50px;
+            opacity: 0.18;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+            background-size: 42px 42px;
+            animation: engineeringGrid 22s linear infinite;
+        }
+
+        @keyframes engineeringGrid {
+            from { transform: translate(0, 0); }
+            to   { transform: translate(42px, 42px); }
+        }
+
+        /* Slow atmospheric scanning line */
+        .instrument-bg::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -10%;
+            width: 100%;
+            height: 1px;
+            background: rgba(255,255,255,0.13);
+            box-shadow: 0 0 16px rgba(255,255,255,0.08);
+            animation: scanLine 9s linear infinite;
+        }
+
+        @keyframes scanLine {
+            0%   { transform: translateY(0); opacity: 0; }
+            10%  { opacity: 0.45; }
+            90%  { opacity: 0.25; }
+            100% { transform: translateY(115vh); opacity: 0; }
+        }
+
+        .process-lines {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.48;
+        }
+
+        .pipe {
+            fill: none;
+            stroke: rgba(255,255,255,0.22);
+            stroke-width: 2.5;
+            stroke-linecap: round;
+            vector-effect: non-scaling-stroke;
+        }
+
+        .pipe1 {
+            stroke: rgba(255,255,255,0.40);
+            stroke-dasharray: 3 15;
+            animation: pipePulse 5s linear infinite;
+        }
+
+        .pipe2 {
+            stroke: rgba(255,255,255,0.22);
+            stroke-dasharray: 2 19;
+            animation: pipePulse 7s linear infinite reverse;
+        }
+
+        .pipe3 {
+            stroke: rgba(255,255,255,0.28);
+            stroke-dasharray: 4 22;
+            animation: pipePulse 6s linear infinite;
+        }
+
+        @keyframes pipePulse {
+            to { stroke-dashoffset: -160; }
+        }
+
+        .flow {
+            fill: #fff;
+            opacity: 0.75;
+            filter: drop-shadow(0 0 5px rgba(255,255,255,0.45));
+        }
+
+        .flow1 { animation: moveFlow1 8s linear infinite; }
+        .flow2 { animation: moveFlow2 10s linear infinite; }
+        .flow3 { animation: moveFlow3 9s linear infinite; }
+
+        @keyframes moveFlow1 {
+            0%   { transform: translate(0,520px); opacity: 0; }
+            8%   { opacity: .75; }
+            25%  { transform: translate(450px,520px); }
+            50%  { transform: translate(700px,300px); }
+            75%  { transform: translate(950px,420px); }
+            100% { transform: translate(1400px,220px); opacity: 0; }
+        }
+
+        @keyframes moveFlow2 {
+            0%   { transform: translate(0,180px); opacity: 0; }
+            8%   { opacity: .65; }
+            25%  { transform: translate(400px,150px); }
+            50%  { transform: translate(650px,230px); }
+            75%  { transform: translate(900px,120px); }
+            100% { transform: translate(1400px,300px); opacity: 0; }
+        }
+
+        @keyframes moveFlow3 {
+            0%   { transform: translate(250px,700px); opacity: 0; }
+            10%  { opacity: .7; }
+            50%  { transform: translate(850px,500px); }
+            100% { transform: translate(1100px,700px); opacity: 0; }
+        }
+
+        .instrument {
+            position: absolute;
+            z-index: 2;
+        }
+
+        /* Gauge styling */
+        .gauge {
+            width: 150px;
+            height: 150px;
+        }
+
+        .gauge1 {
+            top: 15%;
+            left: 9%;
+        }
+
+        .gauge2 {
+            right: 10%;
+            bottom: 12%;
+        }
+
+        .gauge-face {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.32);
+            background:
+                radial-gradient(circle, #050505 56%, #101010 57%, #000 69%);
+            box-shadow:
+                inset 0 0 28px rgba(255,255,255,0.045),
+                0 0 22px rgba(255,255,255,0.035);
+            animation: instrumentFloat 7s ease-in-out infinite;
+        }
+
+        .gauge-face::before {
+            content: "";
+            position: absolute;
+            inset: 13px;
+            border-radius: 50%;
+            border: 1px dashed rgba(255,255,255,0.22);
+        }
+
+        .gauge-ticks,
+        .temp-scale {
+            position: absolute;
+            inset: 19px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            border-top-color: rgba(255,255,255,0.55);
+            border-right-color: rgba(255,255,255,0.22);
+            transform: rotate(-38deg);
+        }
+
+        .temp-scale {
+            transform: rotate(32deg);
+        }
+
+        .needle,
+        .temp-needle {
+            position: absolute;
+            width: 54px;
+            height: 1.5px;
+            left: 47px;
+            top: 74px;
+            transform-origin: left center;
+            background: #fff;
+            box-shadow: 0 0 7px rgba(255,255,255,0.55);
+        }
+
+        .needle {
+            animation: needleMove 4s ease-in-out infinite alternate;
+        }
+
+        .temp-needle {
+            animation: tempMove 5s ease-in-out infinite alternate;
+        }
+
+        @keyframes needleMove {
+            from { transform: rotate(-42deg); }
+            to   { transform: rotate(62deg); }
+        }
+
+        @keyframes tempMove {
+            from { transform: rotate(-65deg); }
+            to   { transform: rotate(30deg); }
+        }
+
+        .gauge-center {
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #fff;
+            left: 70px;
+            top: 70px;
+            box-shadow: 0 0 7px rgba(255,255,255,0.4);
+        }
+
+        .gauge-label {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 91px;
+            font-size: 8px;
+            color: rgba(255,255,255,0.58);
+            letter-spacing: 1.5px;
+        }
+
+        .gauge-value {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 106px;
+            font: 10px monospace;
+            color: rgba(255,255,255,0.8);
+        }
+
+        @keyframes instrumentFloat {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-7px); }
+        }
+
+        /* Flow meter */
+        .flow-meter {
+            position: absolute;
+            top: 57%;
+            left: 37%;
+            z-index: 3;
+        }
+
+        .flow-ring {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.28);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.76);
+            box-shadow: inset 0 0 20px rgba(255,255,255,0.035);
+            animation: meterPulse 4s ease-in-out infinite;
+        }
+
+        @keyframes meterPulse {
+            0%,100% { box-shadow: inset 0 0 20px rgba(255,255,255,0.025); }
+            50% { box-shadow: inset 0 0 30px rgba(255,255,255,0.08); }
+        }
+
+        .flow-arrow {
+            position: absolute;
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            border-top-color: rgba(255,255,255,0.7);
+            border-right-color: rgba(255,255,255,0.25);
+            animation: rotateArrow 3s linear infinite;
+        }
+
+        @keyframes rotateArrow {
+            to { transform: rotate(360deg); }
+        }
+
+        .flow-text {
+            text-align: center;
+            color: rgba(255,255,255,0.5);
+            font: 9px monospace;
+            letter-spacing: 1px;
+        }
+
+        .flow-text strong {
+            display: block;
+            color: rgba(255,255,255,0.88);
+            font-size: 21px;
+            letter-spacing: 0;
+        }
+
+        /* Control valve */
+        .control-valve {
+            position: absolute;
+            left: 63%;
+            top: 35%;
+            width: 150px;
+            height: 150px;
+            z-index: 3;
+            opacity: 0.75;
+        }
+
+        .valve-body {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: #080808;
+            border: 2px solid rgba(255,255,255,0.38);
+            transform: rotate(45deg);
+            left: 45px;
+            top: 65px;
+        }
+
+        .valve-stem {
+            position: absolute;
+            width: 2px;
+            height: 65px;
+            background: rgba(255,255,255,0.5);
+            left: 74px;
+            top: 15px;
+        }
+
+        .valve-actuator {
+            position: absolute;
+            width: 55px;
+            height: 34px;
+            border: 2px solid rgba(255,255,255,0.34);
+            background: #050505;
+            left: 47px;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: actuatorPulse 3s ease-in-out infinite;
+        }
+
+        .valve-actuator span {
+            color: rgba(255,255,255,0.75);
+            font: bold 11px monospace;
+        }
+
+        @keyframes actuatorPulse {
+            0%,100% { opacity: .65; }
+            50% { opacity: 1; }
+        }
+
+        .valve-label {
+            position: absolute;
+            top: 126px;
+            width: 100%;
+            text-align: center;
+            font: 8px monospace;
+            color: rgba(255,255,255,0.42);
+            letter-spacing: 1.2px;
+        }
+
+        /* DCS panel */
+        .dcs-box {
+            position: absolute;
+            right: 7%;
+            top: 14%;
+            width: 215px;
+            background: rgba(0,0,0,0.82);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px;
+            padding: 12px;
+            z-index: 3;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        .dcs-header {
+            color: rgba(255,255,255,0.78);
+            font: 11px monospace;
+            letter-spacing: 1px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .dcs-row {
+            display: grid;
+            grid-template-columns: 1fr 15px 60px;
+            align-items: center;
+            padding: 9px 0;
+            font: 9px monospace;
+            color: rgba(255,255,255,0.45);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .dcs-row:last-child {
+            border-bottom: none;
+        }
+
+        .dcs-row b {
+            color: rgba(255,255,255,0.7);
+            font-size: 9px;
+        }
+
+        .status {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #fff;
+            box-shadow: 0 0 7px rgba(255,255,255,0.7);
+            animation: statusBlink 1.7s infinite;
+        }
+
+        @keyframes statusBlink {
+            50% { opacity: .25; }
+        }
+
+        /* Instrument tags */
+        .tag {
+            position: absolute;
+            z-index: 3;
+            color: rgba(255,255,255,0.42);
+            font: 10px monospace;
+            padding: 4px 7px;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(0,0,0,0.65);
+            border-radius: 3px;
+            animation: tagFloat 5s ease-in-out infinite;
+        }
+
+        @keyframes tagFloat {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .tag1 { top: 35%; left: 24%; }
+        .tag2 { top: 64%; left: 19%; }
+        .tag3 { bottom: 24%; left: 51%; }
+        .tag4 { top: 54%; right: 18%; }
+        .tag5 { bottom: 14%; right: 39%; }
+        .tag6 { top: 24%; left: 47%; }
+
+        /* Signal nodes */
+        .signal-node {
+            position: absolute;
+            z-index: 3;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(255,255,255,0.55);
+            animation: nodePulse 2.2s infinite;
+        }
+
+        @keyframes nodePulse {
+            0%,100% {
+                opacity: .25;
+                transform: scale(.8);
+            }
+            50% {
+                opacity: .9;
+                transform: scale(1.25);
+            }
+        }
+
+        .node1 { left: 30%; top: 40%; }
+        .node2 { left: 55%; top: 28%; }
+        .node3 { left: 72%; top: 60%; }
+        .node4 { left: 40%; top: 75%; }
+
+        /* Keep foreground readable */
+        .hero-content,
+        .hero-card {
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-card {
+            background: rgba(0,0,0,0.64);
+            border-color: rgba(255,255,255,0.14);
+        }
+
+        @media (max-width: 850px) {
+            .gauge1 {
+                left: -10px;
+                top: 14%;
+                transform: scale(.65);
+            }
+
+            .gauge2 {
+                right: -10px;
+                bottom: 8%;
+                transform: scale(.65);
+            }
+
+            .flow-meter {
+                left: 25%;
+                top: 62%;
+                transform: scale(.68);
+            }
+
+            .control-valve {
+                left: 55%;
+                top: 42%;
+                transform: scale(.65);
+            }
+
+            .dcs-box {
+                right: 2%;
+                top: 10%;
+                transform: scale(.62);
+                transform-origin: top right;
+            }
+
+            .tag {
+                transform: scale(.8);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .instrument-bg *,
+            .instrument-bg::before,
+            .instrument-bg::after {
+                animation: none !important;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================== -->
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            Nelvious<span>.</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<!-- =========================
+     HERO
+========================== -->
+
+<header class="hero">
+<div class="instrument-bg">
+
+    <!-- Animated pipeline -->
+    <svg class="process-lines" viewBox="0 0 1400 700" preserveAspectRatio="none">
+
+        <!-- Main pipelines -->
+        <path class="pipe pipe1"
+              d="M0 520 H220 V400 H450 V520 H700 V300 H950 V420 H1200 V220 H1400"/>
+
+        <path class="pipe pipe2"
+              d="M0 180 H180 V280 H400 V150 H650 V230 H900 V120 H1150 V300 H1400"/>
+
+        <path class="pipe pipe3"
+              d="M250 700 V560 H500 V650 H850 V500 H1100 V700"/>
+
+        <!-- Flow animation -->
+        <circle class="flow flow1" r="5"/>
+        <circle class="flow flow2" r="5"/>
+        <circle class="flow flow3" r="5"/>
+
+    </svg>
+
+
+    <!-- Pressure Gauge -->
+    <div class="instrument gauge gauge1">
+
+        <div class="gauge-face">
+
+            <div class="gauge-ticks"></div>
+
+            <div class="needle"></div>
+
+            <div class="gauge-center"></div>
+
+            <span class="gauge-label">PRESSURE</span>
+
+            <span class="gauge-value">6.4 BAR</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Temperature Gauge -->
+    <div class="instrument gauge gauge2">
+
+        <div class="gauge-face">
+
+            <div class="temp-scale"></div>
+
+            <div class="temp-needle"></div>
+
+            <div class="gauge-center"></div>
+
+            <span class="gauge-label">TEMP</span>
+
+            <span class="gauge-value">-183°C</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Flow Meter -->
+    <div class="instrument flow-meter">
+
+        <div class="flow-ring">
+
+            <div class="flow-arrow"></div>
+
+            <div class="flow-text">
+                FLOW
+                <strong>125.8</strong>
+                Nm³/h
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Control Valve -->
+    <div class="control-valve">
+
+        <div class="valve-body"></div>
+
+        <div class="valve-stem"></div>
+
+        <div class="valve-actuator">
+
+            <span>FC</span>
+
+        </div>
+
+        <div class="valve-label">
+            CONTROL VALVE
+        </div>
+
+    </div>
+
+
+    <!-- DCS Signal Box -->
+    <div class="dcs-box">
+
+        <div class="dcs-header">
+            DCS / PLC
+        </div>
+
+        <div class="dcs-row">
+            <span>PT-101</span>
+            <span class="status"></span>
+            <b>6.4 BAR</b>
+        </div>
+
+        <div class="dcs-row">
+            <span>TT-201</span>
+            <span class="status"></span>
+            <b>-183°C</b>
+        </div>
+
+        <div class="dcs-row">
+            <span>FT-301</span>
+            <span class="status"></span>
+            <b>125.8</b>
+        </div>
+
+    </div>
+
+
+    <!-- Floating instrument tags -->
+
+    <div class="tag tag1">PT-101</div>
+    <div class="tag tag2">TT-201</div>
+    <div class="tag tag3">FT-301</div>
+    <div class="tag tag4">CV-401</div>
+    <div class="tag tag5">AI</div>
+    <div class="tag tag6">4–20 mA</div>
+
+
+    <!-- Small signal nodes -->
+
+    <div class="signal-node node1"></div>
+    <div class="signal-node node2"></div>
+    <div class="signal-node node3"></div>
+    <div class="signal-node node4"></div>
+
+</div>
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <p style="color:#38bdf8; font-weight:600; margin-bottom:10px;">
+                INDUSTRIAL INSTRUMENTATION PROFESSIONAL
+            </p>
+
+            <h1>
+                Nelvious <span>Raj S</span>
+            </h1>
+
+            <div class="designation">
+                Instrumentation Supervisor
+            </div>
+
+            <p class="hero-description">
+                Instrumentation professional with 8+ years of experience in
+                industrial instrumentation maintenance, calibration,
+                troubleshooting, installation, commissioning, DCS,
+                process analyzers and plant operations.
+            </p>
+
+            <div class="hero-buttons">
+
+                <!-- CHANGE RESUME FILE NAME IF REQUIRED -->
+                <a href="C:\Users\chand\OneDrive\Desktop\Nelvious_Raj\Documents\Nelvious_Raj_Resume.pdf"
+                   class="btn btn-primary"
+                   target="_blank">
+                    View Resume
+                </a>
+
+                <a href="#contact"
+                   class="btn btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <h3>Professional Snapshot</h3>
+
+            <div class="stat">
+                <strong>8+</strong>
+                <span>Years of Instrumentation Experience</span>
+            </div>
+
+            <div class="stat">
+                <strong>Instrumentation</strong>
+                <span>Maintenance & Troubleshooting</span>
+            </div>
+
+            <div class="stat">
+                <strong>DCS</strong>
+                <span>Monitoring, Logic Checking & Loop Commissioning</span>
+            </div>
+
+            <div class="stat">
+                <strong>UHP 6N</strong>
+                <span>Oxygen Plant Instrumentation Commissioning</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     ABOUT
+========================== -->
+
+<section id="about">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Professional Summary</h2>
+            <p>Instrumentation Maintenance & Process Control</p>
+        </div>
+
+        <div class="summary-box">
+
+            Instrumentation Supervisor with 8+ years of experience in
+            industrial instrumentation maintenance, calibration,
+            troubleshooting, installation and commissioning, with hands-on
+            experience in DCS, process analyzers, control valves and field
+            instrumentation.
+
+            Experienced in supervising maintenance activities, coordinating
+            technicians, planning preventive maintenance, troubleshooting
+            breakdowns, managing instrumentation spares and coordinating with
+            operations for safe and reliable plant operation.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================== -->
+
+<section id="experience">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Work Experience</h2>
+            <p>Professional career progression in industrial instrumentation</p>
+        </div>
+
+
+        <div class="timeline">
+
+
+            <!-- INOX -->
+
+            <div class="timeline-item">
+
+                <h3>Supervisor – Instrumentation</h3>
+
+                <div class="company">
+                    INOX Air Products Ltd, Hosur, Tamil Nadu
+                </div>
+
+                <div class="duration">
+                    Dec 2023 – Present
+                </div>
+
+                <ul>
+
+                    <li>
+                        Perform calibration and maintenance of process analyzers
+                        including CO₂, O₂, N₂, THC and Ar analyzers.
+                    </li>
+
+                    <li>
+                        Carry out calibration of field instruments and sensors
+                        and maintain associated documentation.
+                    </li>
+
+                    <li>
+                        Perform DCS parameter and tuning-parameter backups.
+                    </li>
+
+                    <li>
+                        Create and modify DCS/HMI displays, perform logic
+                        checking and analyze process trends.
+                    </li>
+
+                    <li>
+                        Commission new control loops according to plant
+                        requirements.
+                    </li>
+
+                    <li>
+                        Perform AI, AO, DI and DO loop checking between field
+                        instruments and DCS.
+                    </li>
+
+                    <li>
+                        Support installation and maintenance of RTDs,
+                        vibration probes and speed probes.
+                    </li>
+
+                    <li>
+                        Handle SAP transactions related to maintenance work,
+                        material requests and material issues.
+                    </li>
+
+                    <li>
+                        Maintain instrumentation spare-parts inventory and
+                        technical documentation.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- PRAXAIR -->
+
+            <div class="timeline-item">
+
+                <h3>Instrumentation Technician</h3>
+
+                <div class="company">
+                    PRAXAIR Pvt Ltd, Bengaluru
+                </div>
+
+                <div class="duration">
+                    Jun 2023 – Dec 2023
+                </div>
+
+                <ul>
+
+                    <li>
+                        Calibration and maintenance of Teledyne O₂, CO₂
+                        and THC analyzers.
+                    </li>
+
+                    <li>
+                        Delta F analyzer calibration for N₂ measurement.
+                    </li>
+
+                    <li>
+                        Calibration of control valves, transmitters and
+                        pressure gauges.
+                    </li>
+
+                    <li>
+                        Fire alarm diagnosis and maintenance.
+                    </li>
+
+                    <li>
+                        Vibration probe installation and gap-voltage adjustment.
+                    </li>
+
+                    <li>
+                        Weighbridge maintenance and calibration.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- KAMATCHI -->
+
+            <div class="timeline-item">
+
+                <h3>Instrumentation Technician</h3>
+
+                <div class="company">
+                    KAMATCHI INDUSTRY LTD, Bengaluru
+                </div>
+
+                <div class="duration">
+                    Aug 2022 – Apr 2023
+                </div>
+
+                <ul>
+
+                    <li>
+                        Worked in a process plant comprising
+                        2 × 35 MW IRCFBC and 10 MW WHRB systems.
+                    </li>
+
+                    <li>
+                        Performed turbine vibration monitoring using
+                        SPM instrumentation.
+                    </li>
+
+                    <li>
+                        Preventive maintenance of turbine temperature elements.
+                    </li>
+
+                    <li>
+                        Operated and monitored DCS supervisory and
+                        engineering stations.
+                    </li>
+
+                    <li>
+                        Calibration and troubleshooting of control valve
+                        positioners, pressure gauges and transmitters.
+                    </li>
+
+                    <li>
+                        Troubleshooting across field instrumentation
+                        and control-room systems.
+                    </li>
+
+                    <li>
+                        Flame scanner maintenance in boiler burner areas.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- GANGA -->
+
+            <div class="timeline-item">
+
+                <h3>Instrumentation Technician</h3>
+
+                <div class="company">
+                    M/S GANGA ASSOCIATES, Bengaluru
+                </div>
+
+                <div class="duration">
+                    Feb 2021 – Jul 2022
+                </div>
+
+                <ul>
+
+                    <li>
+                        Servicing and overhauling of industrial instruments.
+                    </li>
+
+                    <li>
+                        Instrument maintenance, repair, calibration,
+                        installation and commissioning.
+                    </li>
+
+                    <li>
+                        Worked with belt conveyor instrumentation including
+                        ZSS, PCS and BSS systems.
+                    </li>
+
+                    <li>
+                        Maintenance activities related to ESP instrumentation.
+                    </li>
+
+                    <li>
+                        Tracing conduit/cable tray routing, instrument air
+                        lines and junction box wiring.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- HOFINCONS -->
+
+            <div class="timeline-item">
+
+                <h3>Instrumentation Maintenance Technician</h3>
+
+                <div class="company">
+                    M/S Hofincons Infotech & Industrial Services
+                </div>
+
+                <div class="duration">
+                    Jun 2019 – Feb 2021
+                </div>
+
+                <ul>
+
+                    <li>
+                        Routine and preventive maintenance of instrumentation
+                        systems.
+                    </li>
+
+                    <li>
+                        Servicing and overhauling of industrial instruments.
+                    </li>
+
+                    <li>
+                        Instrument maintenance, repair, calibration,
+                        installation and commissioning.
+                    </li>
+
+                    <li>
+                        Servicing of single-point and double-port solenoid
+                        valves including Festo and Rotex.
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- DALMIA -->
+
+            <div class="timeline-item">
+
+                <h3>Instrumentation Technician</h3>
+
+                <div class="company">
+                    Dalmia Cement (Bharat) Limited
+                </div>
+
+                <div class="duration">
+                    May 2018 – May 2019
+                </div>
+
+                <ul>
+
+                    <li>
+                        Calibration of thermocouples, RTDs and pressure gauges.
+                    </li>
+
+                    <li>
+                        Calibration and verification of multimeters.
+                    </li>
+
+                    <li>
+                        Preparation of calibration certificates.
+                    </li>
+
+                    <li>
+                        Soldering and electronic component repair/rework.
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TECHNICAL SKILLS
+========================== -->
+
+<section id="skills">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Technical Skills</h2>
+            <p>Core instrumentation and industrial maintenance expertise</p>
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <div class="skill-card">
+
+                <h3>Instrumentation</h3>
+
+                <p>
+                    Instrument Calibration, Preventive & Corrective Maintenance,
+                    RTDs, Thermocouples, Pressure/Level/Flow/Temperature
+                    Instruments, Pressure Gauges, Transmitters, Control Valves,
+                    Positioners, Actuators, Solenoid Valves, Vibration Probes
+                    and Speed Probes.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Process Analyzers</h3>
+
+                <p>
+                    O₂ Analyzers, CO₂ Analyzers, N₂ Analyzers, THC Analyzers,
+                    Argon Analyzers, Teledyne Analyzers, Delta F Analyzers,
+                    Analyzer Calibration and Maintenance.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>DCS & Process Control</h3>
+
+                <p>
+                    DCS Operations, DCS Supervisory Operations, DCS/HMI,
+                    Logic Checking, Trend Analysis, Parameter Backup,
+                    Tuning Parameter Backup, Control Loop Commissioning,
+                    AI/AO/DI/DO Loop Checking.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Maintenance & Troubleshooting</h3>
+
+                <p>
+                    Preventive Maintenance, Breakdown Maintenance,
+                    Instrument Repair, Servicing & Overhauling,
+                    Field Instrument Troubleshooting, Control Room
+                    Troubleshooting, Installation and Commissioning.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Electrical & Instrumentation</h3>
+
+                <p>
+                    Hardware Drawings, P&ID Drawings, Junction Box Wiring,
+                    Instrument Air Lines, Cable Tray & Conduit Routing,
+                    Hardware Panel Troubleshooting.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Industrial Instrumentation</h3>
+
+                <p>
+                    Turbine Instrumentation, Temperature Elements,
+                    Vibration Monitoring, Flame Scanners, ESP Instrumentation,
+                    Belt Conveyor Instrumentation and Weighbridge Calibration.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Calibration & Testing</h3>
+
+                <p>
+                    Calibration Certificates, Calibration Records,
+                    Multimeters, Pressure Gauge Calibration,
+                    RTD & Thermocouple Calibration, Analyzer Calibration
+                    and Vibration Probe Gap Adjustment.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Maintenance Management</h3>
+
+                <p>
+                    5S, Kaizen, SAP, Work Order Posting, Material Requests,
+                    Material Issue, Spare Parts Inventory Control,
+                    Maintenance Documentation, ISO Documentation and
+                    SOP-Based Maintenance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROJECT
+========================== -->
+
+<section id="projects">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Commissioning Project</h2>
+            <p>Major instrumentation project</p>
+        </div>
+
+
+        <div class="project-card">
+
+            <h3>UHP Oxygen 6N Grade Plant</h3>
+
+            <div class="company">
+                Instrumentation Commissioning | INOX Air Products
+            </div>
+
+            <ul>
+
+                <li>
+                    Commissioned the instrumentation system for a
+                    UHP Oxygen 6N grade production plant.
+                </li>
+
+                <li>
+                    Executed instrumentation installation inspection,
+                    calibration, loop checking and commissioning activities.
+                </li>
+
+                <li>
+                    Verified AI, AO, DI and DO signals between field
+                    instruments and the DCS.
+                </li>
+
+                <li>
+                    Performed DCS/HMI logic checking, parameter verification
+                    and process trend monitoring.
+                </li>
+
+                <li>
+                    Commissioned and verified control loops according
+                    to plant requirements.
+                </li>
+
+                <li>
+                    Performed process analyzer calibration and verification
+                    for critical gas-quality monitoring.
+                </li>
+
+                <li>
+                    Troubleshot instrumentation and control-loop issues
+                    during commissioning and startup.
+                </li>
+
+                <li>
+                    Coordinated field instrumentation and control-room
+                    activities during commissioning.
+                </li>
+
+            </ul>
+
+
+            <div class="project-tags">
+
+                <span class="tag">UHP Oxygen</span>
+                <span class="tag">6N Grade</span>
+                <span class="tag">Instrumentation</span>
+                <span class="tag">DCS</span>
+                <span class="tag">Loop Checking</span>
+                <span class="tag">Calibration</span>
+                <span class="tag">Commissioning</span>
+                <span class="tag">Troubleshooting</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     AWARDS
+========================== -->
+
+<section id="awards">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Awards & Recognition</h2>
+            <p>Professional recognition</p>
+        </div>
+
+
+        <div class="awards-grid">
+
+
+            <div class="award">
+
+                <h3>
+                    Critical Fault Troubleshooting Recognition
+                </h3>
+
+                <p>
+                    Recognized at INOX Air Products for successfully identifying
+                    and troubleshooting a critical instrumentation fault that
+                    impacted plant operation, contributing to restoration of
+                    reliable plant performance.
+                </p>
+
+            </div>
+
+
+            <div class="award">
+
+                <h3>
+                    UHP Oxygen Plant Commissioning Recognition
+                </h3>
+
+                <p>
+                    Recognized for successful commissioning of the instrumentation
+                    system for the UHP Oxygen 6N grade plant, including
+                    instrumentation commissioning, loop checking, calibration
+                    and control-system verification.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EDUCATION
+========================== -->
+
+<section id="education">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Education</h2>
+            <p>Technical education and academic background</p>
+        </div>
+
+
+        <div class="education-grid">
+
+
+            <div class="education-card">
+
+                <h3>ITI – Instrument Mechanic</h3>
+
+                <p>
+                    Shri Ramakrishna Dalmia ITI
+                </p>
+
+                <p>
+                    2015 – 2017 | 77%
+                </p>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>Higher Secondary</h3>
+
+                <p>
+                    Government Hr. Sec. School,
+                    Pudhurpalayam
+                </p>
+
+                <p>
+                    2014 – 2015 | 54%
+                </p>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>Secondary School</h3>
+
+                <p>
+                    St. Peter's Higher Secondary School,
+                    Viragalur
+                </p>
+
+                <p>
+                    2012 – 2013 | 76%
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SOFT SKILLS
+========================== -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Professional Strengths</h2>
+
+            <p>
+                Skills supporting technical and supervisory responsibilities
+            </p>
+
+        </div>
+
+
+        <div class="soft-skills">
+
+            <span class="soft-skill">
+                Team Leadership & Supervision
+            </span>
+
+            <span class="soft-skill">
+                Technician Coordination
+            </span>
+
+            <span class="soft-skill">
+                Work Allocation
+            </span>
+
+            <span class="soft-skill">
+                Maintenance Planning
+            </span>
+
+            <span class="soft-skill">
+                Problem Solving
+            </span>
+
+            <span class="soft-skill">
+                Technical Communication
+            </span>
+
+            <span class="soft-skill">
+                Cross-Functional Coordination
+            </span>
+
+            <span class="soft-skill">
+                Time Management
+            </span>
+
+            <span class="soft-skill">
+                Task Prioritization
+            </span>
+
+            <span class="soft-skill">
+                Safety Awareness
+            </span>
+
+            <span class="soft-skill">
+                SOP Compliance
+            </span>
+
+            <span class="soft-skill">
+                Technical Documentation
+            </span>
+
+            <span class="soft-skill">
+                Teamwork
+            </span>
+
+            <span class="soft-skill">
+                Adaptability
+            </span>
+
+            <span class="soft-skill">
+                Attention to Detail
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================== -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Contact</h2>
+
+            <p>
+                Available for Instrumentation Supervisor and
+                Instrumentation Maintenance opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+                <h3>Email</h3>
+
+                <a href="mailto:ragavanelvious@gmail.com">
+                    ragavanelvious@gmail.com
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>Phone</h3>
+
+                <a href="tel:+9176369875882">
+                    +91 76369875882
+                </a>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>Location</h3>
+
+                <a href="#">
+                    Hosur, Tamil Nadu, India
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+        <div style="margin-top:35px;">
+
+            <!-- Replace # with actual LinkedIn URL -->
+
+            <a href="https://www.linkedin.com/in/ragava-nelvious-086367318/"
+               class="btn btn-primary"
+               target="_blank">
+                LinkedIn Profile
+            </a>
+
+            <a href="mailto:ragavanelvious@gmail.com"
+               class="btn btn-outline"
+               style="margin-left:10px;">
+                Email Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+
+<footer>
+
+    © 2026 Nelvious Raj S.
+    Instrumentation Supervisor | Instrumentation Maintenance
+
+</footer>
+
+</body>
+</html>
